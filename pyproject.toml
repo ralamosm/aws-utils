@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aws-utils"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python tools for AWS"
 authors = ["Roberto Alamos <ralamosm@gmail.com>"]
 readme = "README.md"
@@ -31,3 +31,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 queuer = "aws_utils.cli.queuer:cli"
+filter_aws = "aws_utils.cli.filter_aws:cli"
